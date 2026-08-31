@@ -1,0 +1,23 @@
+{
+  "workspaceRoot": "${WORKSPACE_ROOT}",
+  "permissions": {
+    "filesystem.read": true,
+    "filesystem.write": true,
+    "filesystem.delete": false,
+    "terminal.cmd": false,
+    "terminal.powershell": false,
+    "terminal.bash": false,
+    "npm.install": true,
+    "npm.run": true,
+    "git.status": true,
+    "git.diff": true,
+    "git.commit": false,
+    "git.push": false,
+    "docker.read": true,
+    "docker.compose": false,
+    "docker.exec": false,
+    "system.env": false
+  },
+  "allowedEnv": [],
+  "auditFile": ".deevo/audit/events.jsonl"
+}
