@@ -3,8 +3,8 @@
     "deevo-dev-bridge": {
       "type": "stdio",
       "command": "npx",
-      "args": ["tsx", "deevo-dev-bridge/src/index.ts", "--stdio"],
-      "cwd": "${workspaceFolder}",
+      "args": ["tsx", "src/index.ts", "--stdio"],
+      "cwd": "${workspaceFolder}/deevo-dev-bridge",
       "env": {
         "WORKSPACE_ROOT": "${workspaceFolder}",
         "DEEVO_POLICY": "${workspaceFolder}/deevo-dev-bridge/config/permissions.json"
