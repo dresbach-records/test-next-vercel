@@ -1,7 +1,9 @@
 {
-  "name": "test-next-vercel",
+  "name": "@dresbach-records/test-next-vercel",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
+  "description": "Projeto de teste Next.js para validar GitHub Actions, Release e GitHub Packages.",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -17,5 +19,8 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "typescript": "latest"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
